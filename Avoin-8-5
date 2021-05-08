@@ -1,28 +1,29 @@
 <Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
-    <Waypoint name="Rayskala" id="0" comment="EFRY 122.65" altitude="125.0">
-      <Location longitude="24.1077778" latitude="60.7447222"/>
+    <Waypoint name="008 Vojakkala" id="0" comment="" altitude="117.0">
+      <Location longitude="24.1627833" latitude="60.7813833"/>
     </Waypoint>
-    <ObservationZone type="Line" length="20000.0"/>
+    <ObservationZone type="Line" length="10000.0"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="Oripaa" id="0" comment="EFOP 123.2" altitude="101.0">
-      <Location longitude="22.7447222" latitude="60.8763889"/>
+    <Waypoint name="038 Oripaa" id="0" comment="" altitude="101.0">
+      <Location longitude="22.7438833" latitude="60.8727833"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="Cylinder" radius="15000.0"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="Jamijarvi" id="0" comment="EFJM 123.65" altitude="156.0">
-      <Location longitude="22.7161111" latitude="61.7786111"/>
+    <Waypoint name="031 Syrjantaka" id="0" comment="" altitude="122.0">
+      <Location longitude="24.8586167" latitude="61.1052833"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="500.0"/>
+    <ObservationZone type="Cylinder" radius="15000.0"/>
   </Point>
   <Point type="Finish">
-    <Waypoint name="Rayskala" id="0" comment="EFRY 122.65" altitude="125.0">
-      <Location longitude="24.1077778" latitude="60.7447222"/>
+    <Waypoint name="001 Rayskala" id="0" comment="" altitude="124.0">
+      <Location longitude="24.11805" latitude="60.7425"/>
     </Waypoint>
     <ObservationZone type="Line" length="1000.0"/>
   </Point>
 </Task>
+
 
 
