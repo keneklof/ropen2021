@@ -1,1 +1,28 @@
+<Task type="AAT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+  <Point type="Start">
+    <Waypoint name="Rayskala" id="0" comment="EFRY 122.65" altitude="125.0">
+      <Location longitude="24.1077778" latitude="60.7447222"/>
+    </Waypoint>
+    <ObservationZone type="Line" length="20000.0"/>
+  </Point>
+  <Point type="Area">
+    <Waypoint name="007 Forssa" id="0" comment="" altitude="106.0">
+      <Location longitude="23.5841667" latitude="60.8252833"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="15000.0"/>
+  </Point>
+  <Point type="Area">
+    <Waypoint name="143 Lahti" id="0" comment="" altitude="106.0">
+      <Location longitude="25.6588833" latitude="60.9763833"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="30000.0"/>
+  </Point>
+  <Point type="Finish">
+    <Waypoint name="001 Rayskala" id="0" comment="" altitude="124.0">
+      <Location longitude="24.11805" latitude="60.7425"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="3000.0"/>
+  </Point>
+</Task>
+
 
